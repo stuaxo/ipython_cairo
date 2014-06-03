@@ -36,6 +36,7 @@ def load_ipython_extension(ipython):
     
     try:
         import cairocffi
+        dpi = png_formatter.for_type(cairocffi.surfaces.ImageSurface, display_cairo_surface)
         dpi = png_formatter.for_type(cairocffi.Surface, display_cairo_surface)
         dpi = png_formatter.for_type(cairocffi.Context, display_cairo_context)
     except ImportError:
