@@ -10,7 +10,7 @@ installation
 For now this can be installed with
 
 ```
-%install_ext https://raw.github.com/stuaxo/ipython-cairo/master/ipython_cairo.py
+%install_ext https://raw.githubusercontent.com/stuaxo/ipython_cairo/master/ipython_cairo.py
 ```
 
 Once this is a bit more polished it will be added to pypi.
